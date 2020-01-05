@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>button introduction</title>
+    </head>
+    <body>
+        <h1>Introduction Of Button in html</h1>
+        <p>
+            button is clickable it use for when any click event doing the html page
+        </p>
+        <h2>Syntax</h2>
+        <code>
+            <pre>
+                &lt;button&gt;text or description&lt;/button&gt;
+            </pre>
+        </code>
+        <h2>Example</h2>
+        <p id="question">How are you</p>
+        <button onclick="getElementById('question').innerHTML = 'fine'; getElementById('back_button').disabled = false">Answer</button>
+        <button id="back_button" onclick="getElementById('question').innerHTML = 'How are you'; getElementById('back_button').disabled = true" disabled>Back</button>
+    </body>
+</html>
